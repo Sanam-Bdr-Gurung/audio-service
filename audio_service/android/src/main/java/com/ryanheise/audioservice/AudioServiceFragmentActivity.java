@@ -23,7 +23,7 @@ public class AudioServiceFragmentActivity extends FlutterFragmentActivity {
 
     @Override
     protected String getCachedEngineId() {
-        AudioServicePlugin.getFlutterEngine(this);
+        // AudioServicePlugin.getFlutterEngine(this);
         return AudioServicePlugin.getFlutterEngineId();
     }
 
@@ -31,6 +31,6 @@ public class AudioServiceFragmentActivity extends FlutterFragmentActivity {
     // it should not be destroyed with the activity.
     @Override
     public boolean shouldDestroyEngineWithHost() {
-        return false;
+        return true;
     }
 }
