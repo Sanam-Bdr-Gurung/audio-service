@@ -31,6 +31,6 @@ public class AudioServiceFragmentActivity extends FlutterFragmentActivity {
     // it should not be destroyed with the activity.
     @Override
     public boolean shouldDestroyEngineWithHost() {
-        return false;
+        return true;
     }
 }
