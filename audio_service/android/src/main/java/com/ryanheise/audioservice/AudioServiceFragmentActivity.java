@@ -17,7 +17,7 @@ public class AudioServiceFragmentActivity extends FlutterFragmentActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
-        AudioServicePlugin.getFlutterEngine(this);
+        // AudioServicePlugin.getFlutterEngine(this);
         super.onCreate(savedInstanceState);
     }
 
